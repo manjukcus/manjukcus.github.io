@@ -1,0 +1,145 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap');
+
+$font-family-sans-serif: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+$body-color: #1c2a33;
+$body-bg: #ffffff;
+$primary: #23618a;
+$link-color: #23618a;
+$navbar-bg: #ffffff;
+$navbar-fg: #1c2a33;
+$navbar-hl: #23618a;
+$footer-bg: #ffffff;
+$footer-fg: #5c6a72;
+$headings-font-weight: 600;
+$line-height-base: 1.75;
+
+/*-- scss:rules --*/
+// 색: 잉크(본문) / 물(링크·강조) / 등고선(헤더 배경) / 보조 회색 / 구분선
+:root {
+  --ink: #1c2a33;
+  --water: #23618a;
+  --muted: #5c6a72;
+  --rule: #e2e7e5;
+  --survey: #f5f7f6;
+}
+
+body { word-break: keep-all; overflow-wrap: break-word; }
+
+.navbar { border-bottom: 1px solid var(--rule); }
+.navbar-title { font-weight: 700; letter-spacing: -0.01em; }
+
+h2 {
+  font-size: 1.3rem;
+  margin-top: 2.75rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+a { text-underline-offset: 0.18em; }
+a:focus-visible { outline: 2px solid var(--water); outline-offset: 2px; border-radius: 2px; }
+
+// 첫 화면: 화면 폭 전체에 깔리는 등고선 지도 위에 이름과 소속
+body { overflow-x: clip; }
+main.content:has(> .hero) { margin-top: 0 !important; padding-top: 0 !important; }
+main.content:has(> .hero) > #title-block-header { display: none; }
+.hero {
+  position: relative;
+  isolation: isolate;
+  margin-top: 0;
+  padding: 3.5rem 0 3rem;
+  margin-bottom: 2rem;
+}
+.hero-map,
+.hero::before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100vw;
+  height: 100%;
+  transform: translateX(-50%);
+}
+.hero-map {
+  max-width: none;
+  object-fit: cover;
+  object-position: right center;
+  background: var(--survey);
+  z-index: -2;
+}
+.hero::before {
+  content: "";
+  background: linear-gradient(90deg, rgba(245, 247, 246, 0.96) 0%, rgba(245, 247, 246, 0.85) 40%, rgba(245, 247, 246, 0) 78%);
+  border-bottom: 1px solid var(--rule);
+  z-index: -1;
+}
+h1.hero-name {
+  font-size: clamp(2.1rem, 5vw, 3.1rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin: 0 0 1.25rem;
+  border: 0;
+  padding: 0;
+}
+.hero-en { font-weight: 400; color: var(--muted); margin-left: 0.3em; }
+.hero-role { font-size: 1rem; color: var(--ink); }
+.hero-lab { display: block; margin-top: 0.9rem; color: var(--water); font-weight: 500; }
+.hero-links { margin-top: 1.6rem; }
+.hero-links p { display: flex; flex-wrap: wrap; gap: 0.5rem 1.6rem; margin: 0; font-weight: 500; }
+
+// 학력
+.edu ul { list-style: none; padding-left: 0; }
+.edu li { padding: 0.2rem 0; }
+
+// 소식: 날짜 | 내용
+.news dl {
+  display: grid;
+  grid-template-columns: 7rem 1fr;
+  gap: 0.9rem 1.25rem;
+}
+.news dt { font-weight: 500; color: var(--muted); font-variant-numeric: tabular-nums; }
+.news dd { margin: 0; }
+
+// 강의: 한글 과목명 아래 영문명
+.courses dt { font-weight: 600; }
+.courses dd { margin: 0 0 1.2rem; color: var(--muted); }
+
+// 논문 목록 (papers.yml + papers.ejs): 연도 | 제목·저자·학술지·요약 | 그림
+.papers { list-style: none; padding: 0; margin: 0; }
+.paper {
+  display: grid;
+  grid-template-columns: 3.5rem minmax(0, 1fr) 11rem;
+  gap: 0 1.5rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.paper:first-child { padding-top: 0.75rem; }
+.paper-year { margin: 0.1rem 0 0; color: var(--muted); font-weight: 500; font-variant-numeric: tabular-nums; }
+.paper-title { font-size: 1.05rem; font-weight: 600; line-height: 1.45; margin: 0 0 0.35rem; }
+.paper-title a { color: var(--ink); text-decoration: none; }
+.paper-title a:hover { color: var(--water); text-decoration: underline; }
+.paper-meta { margin: 0 0 0.5rem; color: var(--muted); font-size: 0.93rem; }
+.paper-meta em { color: var(--water); }
+.paper-desc { margin: 0; font-size: 0.95rem; }
+.paper-fig img { width: 100%; aspect-ratio: 8 / 5; object-fit: cover; border: 1px solid var(--rule); border-radius: 3px; }
+
+// 지도
+.map-embed { margin-top: 3rem; }
+.map-embed iframe {
+  width: 100%;
+  height: 420px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+}
+
+@media (max-width: 575.98px) {
+  .hero { padding: 2.5rem 0 2.25rem; }
+  .news dl { grid-template-columns: 1fr; gap: 0.15rem; }
+  .news dd { margin-bottom: 0.9rem; }
+  .map-embed iframe { height: 320px; }
+  .paper { grid-template-columns: 1fr; }
+  .paper-fig { order: -1; margin-bottom: 0.75rem; }
+  .paper-year { margin-bottom: 0.2rem; }
+}
+
+.quarto-title-block { margin-bottom: 1.25rem; }

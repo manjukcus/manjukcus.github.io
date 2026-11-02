@@ -1,0 +1,16 @@
+---
+title: "Teaching"
+---
+
+## Lectures at KAIST
+
+::: {.courses}
+명당을 찾아서: 입지론과 적용
+:   Identifying Optimal Locations: Location Theory and Its Applications
+
+지리학으로 읽는 식음료와 스포츠: 공간분석 기초와 응용
+:   Geography of Food, Beverage, and Sports: Basics and Applications of Spatial Analysis
+
+GIS와 탐색적공간데이터분석
+:   GIS and Exploratory Spatial Data Analysis
+:::

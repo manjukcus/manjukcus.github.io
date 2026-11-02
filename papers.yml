@@ -1,0 +1,49 @@
+# 논문 목록: 새 논문은 아래 항목 하나를 복사해서 맨 위에 붙이고 내용만 바꾸면 됩니다.
+# date는 연도만 쓰여도 정렬되도록 YYYY-01-01 형식으로 둡니다. (화면에는 연도만 표시)
+# image는 images/research/ 폴더의 그림 파일, path는 논문 링크입니다.
+
+- title: "Locational Decision-Making and Representational Impacts"
+  subtitle: "The Professional Geographer"
+  author: "S. Cho, A. T. Murray, S. Dodge, and R. L. Church"
+  date: 2025-01-01
+  path: https://www.tandfonline.com/doi/full/10.1080/00330124.2025.2455180
+  image: images/research/2025-pg.png
+  description: "This research explored the disparity between the non-dominated solutions derived from continuous space and discretely approximated surfaces. The impact of spatial representation in spatial optimization was dealt in this paper."
+
+- title: "Correlation between Hotspots of Child Maltreatment and Neighborhood-Level Interventions"
+  subtitle: "Child Indicators Research"
+  author: "S. Cho, S. Kim, and B. Lee"
+  date: 2024-01-01
+  path: https://link.springer.com/article/10.1007/s12187-024-10161-2
+  image: images/research/2024-cir.png
+  description: "This paper is dealing with the spatial pattern of child maltreatment and the impact of social and spatial context on it. The neighborhood intervention trend was explored in this research."
+
+- title: "Improving Locational Decision Making: a heuristic that optimizes access and coverage"
+  subtitle: "International Journal of Geographical Information Science"
+  author: "S. Cho, A. T. Murray, S. Dodge, and J. Baik"
+  date: 2023-01-01
+  path: https://www.tandfonline.com/doi/full/10.1080/13658816.2023.2169923
+  image: images/research/2023-ijgis.png
+  description: "This research proposed λ interval heuristic method that can derive non-dominated solutions in continuous space. The results showed the superiority of the algorithm in continuous space to the derived solutions from the discretely approximated surface."
+
+- title: "Spatio-temporal Multi-objective Optimization for Competitive Mobile Vendors Location and Routing Using De Facto Population Demands"
+  subtitle: "Geographical Analysis"
+  author: "S. Cho and G. Lee"
+  date: 2022-01-01
+  path: https://onlinelibrary.wiley.com/doi/full/10.1111/gean.12292
+  image: images/research/2022-gean.png
+  description: "The optimal locations and trajectories of food trucks were identified considering the de facto population and existing restaurants in Seoul."
+
+- title: "국민연금기금의 대체투자를 통한 청년층 공공임대주택 공급 후보지분석"
+  subtitle: "한국경제지리학회지"
+  author: "조성아, 홍예륜, 이성민, 신휴석"
+  date: 2018-01-01
+  path: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002359595
+  image: images/research/2018-kaeg.png
+
+- title: "공간 통계를 활용한 서울시 노년 인구 거주지와 노인 수요 시설 분포의 공간적 불일치 탐색"
+  subtitle: "한국도시지리학회지"
+  author: "조성아, 이건학"
+  date: 2017-01-01
+  path: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002253415
+  image: images/research/2017-kaug.png

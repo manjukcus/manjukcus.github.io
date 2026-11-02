@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+  resources:
+    - images/
+
+lang: ko
+
+website:
+  title: "Seonga Cho"
+  site-url: https://manjukcus.github.io
+  description: "KAIST 디지털인문사회과학부 조성아 교수와 SSAG Lab(Spatial optimization, Spatial Analytics, and Geographic information science)의 홈페이지"
+  favicon: images/favicon.svg
+  navbar:
+    title: "SSAG Lab"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: news.qmd
+        text: News
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+    right:
+      - icon: mortarboard
+        href: https://scholar.google.com/citations?user=DIzZ6YsAAAAJ&hl=en
+        aria-label: Google Scholar
+      - icon: envelope
+        href: mailto:seonga_geo@kaist.ac.kr
+        aria-label: Email
+  page-footer:
+    left: "© 2026 Seonga Cho, SSAG Lab, KAIST"
+    right: "seonga_geo@kaist.ac.kr"
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    toc: false
+    page-layout: article

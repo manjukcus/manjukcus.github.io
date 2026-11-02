@@ -1,0 +1,21 @@
+---
+title: "Research"
+listing:
+  id: papers
+  contents: papers.yml
+  template: papers.ejs
+  sort: "date desc"
+  date-format: "YYYY"
+---
+
+## Current research interests
+
+- Accessibility analysis to amenity facilities with diminishing urban area's spatial context
+- Spatial optimization problems in 3D continuous space
+- Stochastic coverage modeling with AI methodology
+- Spatial data uncertainty analysis related to built environment accessibility
+
+## Selected papers
+
+::: {#papers}
+:::

@@ -1,0 +1,19 @@
+```{=html}
+<ol class="papers">
+<% for (const item of items) {
+     const authors = Array.isArray(item.author) ? item.author.join(", ") : (item.author || "");
+%>
+  <li class="paper" <%= metadataAttrs(item) %>>
+    <p class="paper-year"><%= item.date %></p>
+    <div class="paper-body">
+      <h3 class="paper-title"><a href="<%- item.path %>"><%= item.title %></a></h3>
+      <p class="paper-meta"><%= authors %><% if (item.subtitle) { %>, <em><%= item.subtitle %></em><% } %></p>
+      <% if (item.description) { %><p class="paper-desc"><%= item.description %></p><% } %>
+    </div>
+    <% if (item.image) { %>
+    <a class="paper-fig" href="<%- item.path %>" tabindex="-1" aria-hidden="true"><img src="<%- item.image %>" alt="" loading="lazy"></a>
+    <% } %>
+  </li>
+<% } %>
+</ol>
+```
