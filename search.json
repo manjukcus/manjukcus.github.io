@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "명당을 찾아서: 입지론과 적용\n\nIdentifying Optimal Locations: Location Theory and Its Applications\n\n지리학으로 읽는 식음료와 스포츠: 공간분석 기초와 응용\n\nGeography of Food, Beverage, and Sports: Basics and Applications of Spatial Analysis\n\nGIS와 탐색적공간데이터분석\n\nGIS and Exploratory Spatial Data Analysis"
+  },
+  {
+    "objectID": "teaching.html#lectures-at-kaist",
+    "href": "teaching.html#lectures-at-kaist",
+    "title": "Teaching",
+    "section": "",
+    "text": "명당을 찾아서: 입지론과 적용\n\nIdentifying Optimal Locations: Location Theory and Its Applications\n\n지리학으로 읽는 식음료와 스포츠: 공간분석 기초와 응용\n\nGeography of Food, Beverage, and Sports: Basics and Applications of Spatial Analysis\n\nGIS와 탐색적공간데이터분석\n\nGIS and Exploratory Spatial Data Analysis"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "2026.06.10\n\nJiyoung Baek successfully finished her Master’s dissertation defense!\n\n2026.04.25\n\nJaeyoon Chung, our intern student, got a student presentation award from The Korean Urban Geographical Society’s spring meeting."
+  },
+  {
+    "objectID": "news.html#section",
+    "href": "news.html#section",
+    "title": "News",
+    "section": "",
+    "text": "2026.06.10\n\nJiyoung Baek successfully finished her Master’s dissertation defense!\n\n2026.04.25\n\nJaeyoon Chung, our intern student, got a student presentation award from The Korean Urban Geographical Society’s spring meeting."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "조성아 Seonga Cho",
+    "section": "",
+    "text": "Assistant Professor, School of Digital Humanities and Computational Social Sciences, KAIST\nAdjunct Professor, Department of Civil and Environmental Engineering, KAIST\nSSAG Lab: Spatial optimization, Spatial Analytics, and Geographic information science\n\nseonga_geo@kaist.ac.kr Google Scholar CV"
+  },
+  {
+    "objectID": "index.html#안녕하세요",
+    "href": "index.html#안녕하세요",
+    "title": "조성아 Seonga Cho",
+    "section": "안녕하세요",
+    "text": "안녕하세요\nKAIST 디지털인문사회과학부에서 GIS(Geographic Information Science) 분야 조교수로 재직 중인 조성아입니다.\n박사과정에서 GIS 분야 및 공간최적화(Spatial Optimization)를 전공하였으며, 다양한 공간 데이터 분석 및 방법론 개발, 도시 내 사회 문제에 관심을 갖고 있습니다. 구체적으로는 도시 내 사회적 약자들의 복지 시설 접근성, 서비스 이용 가능성 계산, 연속 공간에서의 다목적 공간최적화 문제 해결 등이 있습니다. 또한 공간적 맥락이 지니는 사회 현상의 영향력과 공간 데이터가 지니는 불확실성에 대한 연구를 지속하고 있습니다.\n연구에 관심이 있거나 인턴, 대학원 지원 등이 궁금한 경우, seonga_geo@kaist.ac.kr로 부담 없이 연락주시기 바랍니다."
+  },
+  {
+    "objectID": "index.html#welcome-to-the-ssag-lab",
+    "href": "index.html#welcome-to-the-ssag-lab",
+    "title": "조성아 Seonga Cho",
+    "section": "Welcome to the SSAG Lab",
+    "text": "Welcome to the SSAG Lab\nAs an Assistant Professor at the School of Digital Humanities and Computational Social Sciences at KAIST (appointed in 2025) and Adjunct Professor in the Department of Civil and Environmental Engineering, I investigate societal and environmental impacts through spatial analysis. My research integrates geographic information systems (GIS) and spatial optimization methodologies to address challenges in urban dynamics, demographic transitions, and human-environment interactions.\nMy work develops spatial analytics frameworks to decode complex social phenomena. Core themes include urban dynamics, where GIS-based approaches map inequities in infrastructure access through coverage modeling. A second focus lies in location analytics, which identifies non-dominated solutions for multi-objective spatial optimization problems within continuous space, particularly in resource allocation and service accessibility. Finally, emerging applications extend spatial paradigms to novel domains, such as optimizing outfielder positioning in sports analytics and evaluating welfare facility accessibility in rural regions.\nPlease contact me when you have any questions related to future collaborations."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "조성아 Seonga Cho",
+    "section": "Education",
+    "text": "Education\n\n\nPh.D. in Geography, University of California, Santa Barbara (2024)\nM.A. in Statistics, University of California, Santa Barbara (2022)\nM.A. in Geography, Seoul National University (2019)\nB.A. in Geography, Seoul National University (2017)"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Accessibility analysis to amenity facilities with diminishing urban area’s spatial context\nSpatial optimization problems in 3D continuous space\nStochastic coverage modeling with AI methodology\nSpatial data uncertainty analysis related to built environment accessibility"
+  },
+  {
+    "objectID": "research.html#current-research-interests",
+    "href": "research.html#current-research-interests",
+    "title": "Research",
+    "section": "",
+    "text": "Accessibility analysis to amenity facilities with diminishing urban area’s spatial context\nSpatial optimization problems in 3D continuous space\nStochastic coverage modeling with AI methodology\nSpatial data uncertainty analysis related to built environment accessibility"
+  },
+  {
+    "objectID": "research.html#selected-papers",
+    "href": "research.html#selected-papers",
+    "title": "Research",
+    "section": "Selected papers",
+    "text": "Selected papers\n\n\n\n  \n    2025\n    \n      Locational Decision-Making and Representational Impacts\n      S. Cho, A. T. Murray, S. Dodge, and R. L. Church, The Professional Geographer\n      This research explored the disparity between the non-dominated solutions derived from continuous space and discretely approximated surfaces. The impact of spatial representation in spatial optimization was dealt in this paper.\n    \n    \n    \n    \n  \n\n  \n    2024\n    \n      Correlation between Hotspots of Child Maltreatment and Neighborhood-Level Interventions\n      S. Cho, S. Kim, and B. Lee, Child Indicators Research\n      This paper is dealing with the spatial pattern of child maltreatment and the impact of social and spatial context on it. The neighborhood intervention trend was explored in this research.\n    \n    \n    \n    \n  \n\n  \n    2023\n    \n      Improving Locational Decision Making: a heuristic that optimizes access and coverage\n      S. Cho, A. T. Murray, S. Dodge, and J. Baik, International Journal of Geographical Information Science\n      This research proposed λ interval heuristic method that can derive non-dominated solutions in continuous space. The results showed the superiority of the algorithm in continuous space to the derived solutions from the discretely approximated surface.\n    \n    \n    \n    \n  \n\n  \n    2022\n    \n      Spatio-temporal Multi-objective Optimization for Competitive Mobile Vendors Location and Routing Using De Facto Population Demands\n      S. Cho and G. Lee, Geographical Analysis\n      The optimal locations and trajectories of food trucks were identified considering the de facto population and existing restaurants in Seoul.\n    \n    \n    \n    \n  \n\n  \n    2018\n    \n      국민연금기금의 대체투자를 통한 청년층 공공임대주택 공급 후보지분석\n      조성아, 홍예륜, 이성민, 신휴석, 한국경제지리학회지\n      \n    \n    \n    \n    \n  \n\n  \n    2017\n    \n      공간 통계를 활용한 서울시 노년 인구 거주지와 노인 수요 시설 분포의 공간적 불일치 탐색\n      조성아, 이건학, 한국도시지리학회지\n      \n    \n    \n    \n    \n  \n\n\n일치 없음"
+  }
+]
